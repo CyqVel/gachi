@@ -1,0 +1,35 @@
+body{
+    background-image: url("http://sun9-75.userapi.com/impf/c831508/v831508046/963f9/dDnXB0D_JkM.jpg?size=604x427&quality=96&sign=f58892ba5ff4f4849051cba2514af156&type=album");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item {
+    border: solid 1px cyan;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 5px;
+    border-color: aqua;
+}
+
+.menu-uitem:hover {
+background-color: aquamarine;
+}
+
+h1 {color: #1d0be4;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hide {
+    display: non;
+}
